@@ -2,7 +2,7 @@
 # Spotify Songs Analysis
 
 ## Équipe
-- Members : [Farah Charfeddine - Ranim Khalifa - Chaima Ben Radhia - Asma Jleili]
+- Members : Farah Charfeddine - Ranim Khalifa - Chaima Ben Radhia - Asma Jleili
 - Tuteur : Haythem Ghazouani
 
 ## Description du Projet
