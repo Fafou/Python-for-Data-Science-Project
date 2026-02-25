@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.vscode/
+.idea/
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
