@@ -7,8 +7,8 @@ env/
 .idea/
 
 # Data
-data/raw/
-data/processed/
+# data/raw/
+# data/processed/
 *.csv
 *.xlsx
 *.parquet
