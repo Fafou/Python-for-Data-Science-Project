@@ -43,13 +43,11 @@ Ce projet vise à analyser et prédire des caractéristiques de chansons Spotify
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-nom/Python-for-Data-Science-Project.git
+git clone https://github.com/Fafou/Python-for-Data-Science-Project.git
 cd Python-for-Data-Science-Project
 
 # Créer un environnement virtuel
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou
 venv\Scripts\activate  # Windows
 
 # Installer les dépendances
