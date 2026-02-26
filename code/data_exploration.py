@@ -4,14 +4,9 @@ import seaborn as sns
 import numpy as np
 
 def run_advanced_eda(file_path="data/raw/spotify_songs.csv"):
-    """
-    Performs Advanced Exploratory Data Analysis on the Spotify dataset.
-    Adapted from the professor's bank churn example.
-    """
-    # MODIFICATION 1: Ajout de low_memory=False
+    
     df = pd.read_csv(file_path, low_memory=False)
     
-    # MODIFICATION 2: Forcer les colonnes numériques
     numeric_cols = ['danceability', 'energy', 'loudness', 'speechiness', 
                     'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo']
     for col in numeric_cols:
@@ -75,10 +70,10 @@ def run_advanced_eda(file_path="data/raw/spotify_songs.csv"):
     plt.savefig('images/eda/correlation_heatmap.png')
     plt.close()
 
-    print("\n✅ Advanced EDA completed. Plots saved in 'images/eda/' directory.")
+    print("\n Advanced EDA completed. Plots saved in 'images/eda/' directory.")
     
     # Bonus: quelques stats
-    print("\n📊 Top 10 genres:")
+    print("\n Top 10 genres:")
     print(df['genre'].value_counts().head(10))
 
 if __name__ == "__main__":
