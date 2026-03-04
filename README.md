@@ -21,18 +21,23 @@ Ce projet vise à analyser et prédire des caractéristiques de chansons Spotify
   *Target* : genre
 
 ## Roadmap (7 semaines)
-### Phase 1 : Fondations (Semaine 1 - En cours)
+### Phase 1 : Fondations (Semaine 1)
 - [x] Choix et validation du dataset
 - [x] Structure GitHub
 - [x] README et documentation
 - [x] Analyse Exploratoire des Données (EDA)
-- [ ] Premier nettoyage des données
-### Phase 2 : Pipeline ML (Semaines 2-3)
-- [ ] Prétraitement avancé et gestion du déséquilibre (SMOTE)
-- [ ] Feature engineering
+### Phase 2 : Pipeline ML (Semaine 2)
+- [x] Nettoyage avancé des données (doublons, valeurs manquantes, outliers)
+- [x] Feature engineering (création de 5 nouvelles features)
+- [x] Split argumenté (80/20 avec stratification)
+- [x] Normalisation des données (StandardScaler)
+- [x] Sauvegarde des données préparées
+### Phase 2 : Pipeline ML (Semaine 3)
+- [ ] Gestion du déséquilibre des classes (SMOTE)
 - [ ] Modélisation (Random Forest, XGBoost)
-- [ ] Optimisation hyperparamètres (GridSearchCV)
+- [ ] Optimisation des hyperparamètres (GridSearchCV)
 - [ ] Tracking avec MLflow
+- [ ] Évaluation des performances
 ### Phase 3 : Déploiement (Semaines 4-7)
 - [ ] API FastAPI
 - [ ] Dashboard React
