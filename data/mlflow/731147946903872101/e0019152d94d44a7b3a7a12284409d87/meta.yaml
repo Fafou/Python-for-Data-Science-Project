@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/farah/Python-for-Data-Science-Project/data/mlflow/731147946903872101/e0019152d94d44a7b3a7a12284409d87/artifacts
+end_time: 1773318817248
+entry_point_name: ''
+experiment_id: '731147946903872101'
+lifecycle_stage: active
+run_id: e0019152d94d44a7b3a7a12284409d87
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773318796552
+status: 3
+tags: []
+user_id: farah

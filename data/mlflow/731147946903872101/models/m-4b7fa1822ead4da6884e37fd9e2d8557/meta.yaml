@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/farah/Python-for-Data-Science-Project/data/mlflow/731147946903872101/models/m-4b7fa1822ead4da6884e37fd9e2d8557/artifacts
+creation_timestamp: 1773318721063
+experiment_id: '731147946903872101'
+last_updated_timestamp: 1773318734918
+model_id: m-4b7fa1822ead4da6884e37fd9e2d8557
+model_type: null
+name: model
+source_run_id: 27ff3dec50dd4fbb8fe7869d3d9a95ce
+status: 2
+status_message: null

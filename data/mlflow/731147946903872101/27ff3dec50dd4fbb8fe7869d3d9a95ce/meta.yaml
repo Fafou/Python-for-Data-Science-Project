@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/farah/Python-for-Data-Science-Project/data/mlflow/731147946903872101/27ff3dec50dd4fbb8fe7869d3d9a95ce/artifacts
+end_time: 1773318734969
+entry_point_name: ''
+experiment_id: '731147946903872101'
+lifecycle_stage: active
+run_id: 27ff3dec50dd4fbb8fe7869d3d9a95ce
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773318635274
+status: 3
+tags: []
+user_id: farah

@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/farah/Python-for-Data-Science-Project/data/mlflow/731147946903872101/81d36176d80f4e6895bce6ac7c3efec2/artifacts
+end_time: 1773318796438
+entry_point_name: ''
+experiment_id: '731147946903872101'
+lifecycle_stage: active
+run_id: 81d36176d80f4e6895bce6ac7c3efec2
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773318734994
+status: 3
+tags: []
+user_id: farah
