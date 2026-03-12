@@ -26,9 +26,6 @@ os.makedirs("images/modeling", exist_ok=True)
 mlflow.set_tracking_uri("file:./data/mlflow")
 
 def load_data():
-    """
-    Charge les données préparées pour la classification du mode
-    """
     print("\nCHARGEMENT DES DONNEES")
     print("-"*40)
     
@@ -49,10 +46,6 @@ def load_data():
     return X_train, X_test, y_train, y_test
 
 def plot_confusion_matrix(y_true, y_pred, model_name):
-    """
-    Crée et sauvegarde une matrice de confusion
-    (Comme la fonction du prof)
-    """
     cm = confusion_matrix(y_true, y_pred)
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
@@ -69,10 +62,6 @@ def plot_confusion_matrix(y_true, y_pred, model_name):
     return filename
 
 def plot_roc_curve(y_true, y_proba, model_name):
-    """
-    Crée et sauvegarde une courbe ROC
-    (Comme la fonction du prof)
-    """
     fpr, tpr, _ = roc_curve(y_true, y_proba)
     auc = roc_auc_score(y_true, y_proba)
     
@@ -91,9 +80,6 @@ def plot_roc_curve(y_true, y_proba, model_name):
     return filename
 
 def plot_feature_importance(model, feature_names, model_name, top_n=10):
-    """
-    Crée un graphique des features les plus importantes
-    """
     if hasattr(model, 'feature_importances_'):
         importances = model.feature_importances_
         indices = np.argsort(importances)[::-1][:top_n]
@@ -113,11 +99,6 @@ def plot_feature_importance(model, feature_names, model_name, top_n=10):
     return None
 
 def run_experiment(model_name, model, param_grid, X_train, X_test, y_train, y_test, feature_names):
-    """
-    Lance une expérience MLflow pour un modèle donné
-    (Structure similaire à run_optimized_experiment du prof)
-    """
-    
     mlflow.set_experiment(EXPERIMENT_NAME)
     
     with mlflow.start_run(run_name=model_name):
