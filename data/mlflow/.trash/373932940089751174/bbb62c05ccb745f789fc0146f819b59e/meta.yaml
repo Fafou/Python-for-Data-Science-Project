@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/farah/Python-for-Data-Science-Project/data/mlflow/373932940089751174/bbb62c05ccb745f789fc0146f819b59e/artifacts
+deleted_time: 1773320438060
+end_time: 1773319501089
+entry_point_name: ''
+experiment_id: '373932940089751174'
+lifecycle_stage: deleted
+run_id: bbb62c05ccb745f789fc0146f819b59e
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773318218657
+status: 3
+tags: []
+user_id: farah
