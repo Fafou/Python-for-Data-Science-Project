@@ -83,7 +83,6 @@ def plot_feature_importance(model, feature_names, model_name, top_n=10):
     if hasattr(model, 'feature_importances_'):
         importances = model.feature_importances_
         indices = np.argsort(importances)[::-1][:top_n]
-        
         plt.figure(figsize=(10, 6))
         plt.title('Top {} Features - {}'.format(top_n, model_name))
         plt.bar(range(top_n), importances[indices])
@@ -198,7 +197,7 @@ if __name__ == "__main__":
     # 3. Configuration des modèles (minimum 2 comme demandé)
     models_config = {
         "RandomForest": {
-            "model": RandomForestClassifier(random_state=42, n_jobs=-1),
+            "model": RandomForestClassifier(random_state=42, n_jobs=-1, class_weight='balanced'),
             "params": {
                 'n_estimators': [100, 200],
                 'max_depth': [10, 20, None],
